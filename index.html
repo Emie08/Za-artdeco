@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des Produits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue chez Zar'art Déco & Meuble</h1>
+    </header>
+    <main>
+        <section class="product-list">
+            <div class="product">
+                <img src="images/photo1.jpg" alt="Sculptures artisanales">
+                <h2>Sculptures Artisanales</h2>
+                <p>Prix : 30 000 Ar</p>
+            </div>
+            <div class="product">
+                <img src="images/photo2.jpg" alt="Statues en bois">
+                <h2>Statues en Bois (Couples)</h2>
+                <p>Prix : 100 000 Ar</p>
+            </div>
+            <div class="product">
+                <img src="images/photo3.jpg" alt="Mortiers artisanaux">
+                <h2>Mortiers Artisanaux</h2>
+                <p>Prix : 30 000 Ar</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Zar'art Déco & Meuble</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px;
+}
+# Zar'art Déco & Meuble - Liste des Produits
+
+Ce projet est une page web simple pour présenter les produits de Zar'art Déco & Meuble.
+
+## Fonctionnalités
+- Affichage des images des produits.
+- Affichage des prix associés.
+
+## Technologies utilisées
+- HTML
+- CSS
+
+## Installation
+1. Clonez ce référentiel : `git clone <URL>`
+2. Ouvrez le fichier `index.html` dans un navigateur.
+
+## Licence
+Voir le fichier `LICENSE` pour les détails.
+MIT License
+
+Copyright (c) 2024
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+...
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossier node_modules
+node_modules/
+
+# Autres fichiers à ignorer
+.env
